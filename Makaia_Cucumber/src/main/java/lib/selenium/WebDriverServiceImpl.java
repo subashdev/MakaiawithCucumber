@@ -202,5 +202,11 @@ public class WebDriverServiceImpl extends WebDriverListener implements WebDriver
 		public void closeAllBrowsers() {
 			driver.quit();
 		}
+		
+		public void getCurrentURL()
+		{
+			System.out.println(driver.getCurrentUrl());
+			
+		}
 
 	}
